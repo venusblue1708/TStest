@@ -11,7 +11,7 @@ const EventExample: FC = () => {
     console.log(inputRef.current?.value);
   };
   const dragHandler = (e: React.DragEvent<HTMLDivElement>) => {
-    console.log("DRAG");
+    console.log("DRAG change");
   };
   const dragWithPreventHandler = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
